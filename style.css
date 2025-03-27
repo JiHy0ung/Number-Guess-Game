@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.back-ground{
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://mblogthumb-phinf.pstatic.net/MjAyMTAxMzFfMTQ0/MDAxNjEyMTAzNjMzMjc3.YGPHl1psLBXaXTO-yPFUALrs2VkL8Q5LaulYGPjlfXcg.TWXe9Uz_fHuZ33MrUdA38P5MbnHlcd5yJPtiqgvITDwg.JPEG.olivia105/62FE4519%EF%BC%8D9EFE%EF%BC%8D4045%EF%BC%8D9DC2%EF%BC%8D043D09D62F42%EF%BC%8D23932%EF%BC%8D00000FD6833057FB%EF%BC%BFfile.jpg?type=w800);
+    font-family: DungGeunMo;
+    color: white;
+}
+
+.box{
+    border-radius: 150px;
+    text-align: center;
+    padding: 50px;
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 20px rgb(0, 0, 0, 0.5),
+    -10px -10px 20px rgb(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+}
+
+.pre-title{
+    font-size: 3vw;
+    text-shadow: 2px 2px 0 rgb(0, 0, 0, 0.3);
+    text-shadow: -2px -2px 0 black, 
+    2px -2px 0 black, 
+   -2px  2px 0 black, 
+    2px  2px 0 black,
+    4px  4px 0 black;
+}
+
+.title{
+    font-size: 5vw;
+    text-shadow: -2px -2px 0 black, 
+    2px -2px 0 black, 
+   -2px  2px 0 black, 
+    2px  2px 0 black,
+    4px  4px 0 black;
+}
+
+.text-red{
+    color:rgb(255, 80, 80);
+}
+
+.text-blue{
+    color:cornflowerblue;
+}
+
+.text-white{
+    color:rgb(255, 255, 255);
+}
+
+.text-result{
+    font-size: 3vw;
+    text-shadow: -2px -2px 0 black, 
+    2px -2px 0 black, 
+   -2px  2px 0 black, 
+    2px  2px 0 black;
+}
+
+.text-chance{
+    font-size: 2vw;
+    text-shadow: -2px -2px 0 black, 
+    2px -2px 0 black, 
+   -2px  2px 0 black, 
+    2px  2px 0 black;
+}
+
+.input-user{
+    font-family: DungGeunMo;
+    font-size: 2vw;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+}
+
+.button-go{
+    font-family: DungGeunMo;
+    font-size: 2.5vw;
+    background-color: black;
+    box-shadow: 3px 3px 0px rgb(255, 255, 255),
+    3px 3px 6px rgb(0, 0, 0, 0.2) ;
+    color: white;
+    padding-block: 20px;
+    padding-inline: 25px;
+    margin-inline: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    
+}
+
+.button-go:active{
+    background-color: rgb(66, 66, 66);
+    box-shadow: 3px 3px 0px rgb(255, 255, 255);
+    transform: scale(0.96);
+
+}
+
+.button-go:disabled{
+    box-shadow: 3px 3px 0px rgb(255, 255, 255);
+    transform: scale(0.96);
+
+}
+
+.button-reset{
+    font-family: DungGeunMo;
+    font-size: 2.5vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 0px rgba(0, 0, 0),
+    3px 3px 6px rgb(0, 0, 0, 0.2);
+    padding-block: 20px;
+    padding-inline: 25px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+.button-reset:active{
+    box-shadow: 3px 3px 0px rgba(0, 0, 0);
+    transform: scale(0.96);
+}
